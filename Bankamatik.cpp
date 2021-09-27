@@ -44,11 +44,12 @@ int main(){
 
 
 	cout<<"--> 1.HAVALE"<<endl;
-	cout<<"--> 2.BAKÝYE BÝLGÝSÝ"<<endl;
-	cout<<"--> 3.KULLANICI BÝLGÝSÝ"<<endl;
+	cout<<"--> 2.BAKÄ°YE BÄ°LGÄ°SÄ°"<<endl;
+	cout<<"--> 3.KULLANICI BÄ°LGÄ°SÄ°"<<endl;
 	cout<<"--> 4.KARTLARIM "<<endl;
 	cout<<"--> 5.PARA CEKME"<<endl;
 	cout<<"--> 6.KART IADE"<<endl;
+	cout<<"--> 0. MENUYE DON"<<endl;
 	cin>>sayilar;
 
 
@@ -61,7 +62,7 @@ if(sayilar == "1"){
 	cout<<"hesaba yatirilacak para miktarini giriniz..."<<endl;
 	cin>>miktar;
 	
-	cout<<"belirtilen hesaba para aktarilmiþtir...";
+	cout<<"belirtilen hesaba para aktarilmiÅŸtir...";
 	
 }	
 	else if(sayilar == "2"){
@@ -78,7 +79,7 @@ if(sayilar == "1"){
 	
 	else if(sayilar == "4"){
 		cout<<"Kartlarim "<<endl;
-		cout<<"Ýki adet kartiniz bulunmaktadir :"<<endl;
+		cout<<"Ä°ki adet kartiniz bulunmaktadir :"<<endl;
 		cout<<"Ziraat Bankasi : 4.850TL "<<endl;
 		cout<<"Is Bankasi : 17.562TL";
 	}
@@ -88,6 +89,18 @@ if(sayilar == "1"){
 		cout <<"Cekilecek Miktar :";
 		cin>>cekilecekmik;
 		cout<<"Once kartinizi sonra parayi aliniz..."<<endl;
+		
+		
+	}
+		else if(sayilar == "0"){
+	cout<<"--> 1.HAVALE"<<endl;
+	cout<<"--> 2.BAKÄ°YE BÄ°LGÄ°SÄ°"<<endl;
+	cout<<"--> 3.KULLANICI BÄ°LGÄ°SÄ°"<<endl;
+	cout<<"--> 4.KARTLARIM "<<endl;
+	cout<<"--> 5.PARA CEKME"<<endl;
+	cout<<"--> 6.KART IADE"<<endl;
+	cout<<"--> 0. MENUYE DON"<<endl;
+	cin>>sayilar;
 		
 		
 	}
